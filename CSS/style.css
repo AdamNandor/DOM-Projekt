@@ -1,0 +1,10 @@
+#Felirat{
+    text-align: center;
+}
+
+.Dobokocka{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    margin-top: 150px;
+}
