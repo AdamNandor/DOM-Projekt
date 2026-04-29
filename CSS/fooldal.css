@@ -2,3 +2,9 @@
     text-align: center;
     font-size: 30px;
 }
+.Valasztas{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    padding-top: 150px;
+}
