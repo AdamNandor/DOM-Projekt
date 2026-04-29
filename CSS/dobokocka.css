@@ -18,3 +18,8 @@
     justify-content: center;
     margin-top: 50px;
 }
+
+#VisszaButton{
+    float: left;
+    margin-left: 15px;
+}

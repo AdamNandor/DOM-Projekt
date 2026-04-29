@@ -17,5 +17,6 @@ const JobbKocka = document.getElementById("JobbKocka");
         BalKocka.src = `IMG/Dobokocka/dobokocka${BalDobas}.png`;
         JobbKocka.src = `IMG/Dobokocka/dobokocka${JobbDobas}.png`;
     }
-
-setInterval(Dobas, 1000);
+document.getElementById("VisszaButton").onclick = function(){
+    window.location.href = "fooldal.html";
+}
