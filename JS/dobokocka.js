@@ -14,8 +14,8 @@ const JobbKocka = document.getElementById("JobbKocka");
             document.getElementById("Eredmeny").textContent = "Döntetlen!";
         }
 
-        BalKocka.src = `IMG/dobokocka${BalDobas}.png`;
-        JobbKocka.src = `IMG/dobokocka${JobbDobas}.png`;
+        BalKocka.src = `IMG/Dobokocka/dobokocka${BalDobas}.png`;
+        JobbKocka.src = `IMG/Dobokocka/dobokocka${JobbDobas}.png`;
     }
 
 setInterval(Dobas, 1000);
