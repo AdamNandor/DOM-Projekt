@@ -13,7 +13,7 @@ const JobbKocka = document.getElementById("JobbKocka");
         } else {
             document.getElementById("Eredmeny").textContent = "Döntetlen!";
         }
-
+        
         BalKocka.src = `IMG/Dobokocka/dobokocka${BalDobas}.png`;
         JobbKocka.src = `IMG/Dobokocka/dobokocka${JobbDobas}.png`;
     }
