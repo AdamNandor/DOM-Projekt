@@ -10,11 +10,11 @@ vNegyzet.onclick = function(){
     {
         let reakcioIdo = Date.now() - indulasIdo;
         indulasIdo = null;
-        alert("Reakcióidő: " + reakcioIdo + "ms");
+        alert("A reakcióidőd: " + reakcioIdo + "ms");
 
-        vNegyzet.src = "IMG/piros-negyzet.png";
-        vNegyzet.alt = "piros negyzet";
-        vNegyzet.title = "piros negyzet";
+        vNegyzet.src = "IMG/kiNevetAVegen/vörös-négyzet.jpg";
+        vNegyzet.alt = "vörös negyzet";
+        vNegyzet.title = "vörös negyzet";
     }
     else 
     {
@@ -25,7 +25,7 @@ vNegyzet.onclick = function(){
 
 function Zoldre() {
     vNegyzet.src = "IMG/kiNevetAVegen/zöld-négyzet.png";
-    vNegyzet.alt = "zold negyzet";
-    vNegyzet.title = "zold negyzet";
+    vNegyzet.alt = "zöld negyzet";
+    vNegyzet.title = "zöld negyzet";
     indulasIdo = Date.now();
 }
